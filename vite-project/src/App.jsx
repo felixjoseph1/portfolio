@@ -1,12 +1,14 @@
-import React from "react"
+import React from "react";
+import Navbar from "./Navbar";
+import Hero from "./Hero";
 
 const App = () => {
   return (
-    <div className="bg-blue-500 text-white p-4">
-  Tailwind is working!
-</div>
+    <div className="bg-black min-h-screen ">
+      <Navbar />
+      <Hero />
+    </div>
+  );
+};
 
-  )
-}
-
-export default App
+export default App;
